@@ -1,0 +1,6 @@
+# Build
+build/
+
+# Libraries
+src/assets/js/libs/
+public/assets/js/

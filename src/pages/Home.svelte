@@ -2,5 +2,7 @@
     import "../assets/scss/pages/home.scss";
 </script>
 
-<h1>Banablock.net</h1>
-<p></p>
+<main class="text-center container pg-home">
+    <h1 class="mt-5">Banablock</h1>
+    <p></p>
+</main>

@@ -21,7 +21,7 @@ const prod = mode === `production`;
 
 const config: Configuration = {
     entry: {
-        app: path.resolve(__dirname, `../src/index.tsx`)
+        app: path.resolve(__dirname, `../src/index.ts`)
     },
 
     resolve: {

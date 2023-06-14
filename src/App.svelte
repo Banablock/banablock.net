@@ -5,13 +5,15 @@
 
     import "bootstrap";
 
-    import "./assets/scss/main.scss";
+    import "./assets/scss/index.scss";
 
     export let url = "";
 </script>
 
-<Router url="{url}">
-    <Route path="/">
-        <Home />
-    </Route>
-</Router>
+<div id="app" class="text-light d-flex flex-column h-100">
+    <Router url="{url}">
+        <Route path="/">
+            <Home />
+        </Route>
+    </Router>
+</div>
