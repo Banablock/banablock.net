@@ -1,0 +1,14 @@
+@import '../palette.scss';
+
+nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+nav .header-logo {
+    transition: 0.5s;
+}
+
+nav .header-logo:hover {
+    transform: rotate(45deg);
+}

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+@import './utils/scrollbar.scss';
+@import './utils/animations.scss';
+@import './utils/alertifyjs.scss';
+
+@import './common.scss';

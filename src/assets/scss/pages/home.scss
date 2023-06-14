@@ -1,0 +1,26 @@
+@import '../palette.scss';
+
+.pg-home {
+    h1 {
+        font-size: 3rem;
+        animation: fastFadeIn 1s;
+    }
+
+    p.desc {
+        animation: fadeIn 1.5s;
+    }
+
+    .discord-intro div:nth-child(1), iframe { animation: fadeIn 2.25s; }
+    .discord-intro div:nth-child(2) { animation: fadeIn 2.75s; }
+
+    .discord-intro {
+        h2 {
+            font-size: 1.5rem;
+            background: #372d47;
+            padding: 0.5rem;
+            padding-left: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
