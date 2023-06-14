@@ -3,6 +3,6 @@
 </script>
 
 <main class="text-center container pg-home">
-    <h1 class="mt-5">Banablock</h1>
+    <h1 class="tw-mt-5">Banablock</h1>
     <p></p>
 </main>
